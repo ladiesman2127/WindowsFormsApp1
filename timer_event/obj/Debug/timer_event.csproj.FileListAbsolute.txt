@@ -1,0 +1,11 @@
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\bin\Debug\timer_event.exe.config
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\bin\Debug\timer_event.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\bin\Debug\timer_event.pdb
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csproj.AssemblyReference.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.Form1.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.Properties.Resources.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csproj.GenerateResource.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csproj.CoreCompileInputs.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.pdb
