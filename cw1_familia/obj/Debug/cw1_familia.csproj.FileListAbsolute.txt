@@ -1,0 +1,11 @@
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\bin\Debug\cw1_familia.exe.config
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\bin\Debug\cw1_familia.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\bin\Debug\cw1_familia.pdb
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csproj.AssemblyReference.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.Form1.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.Properties.Resources.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csproj.GenerateResource.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csproj.CoreCompileInputs.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.pdb
