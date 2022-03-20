@@ -38,6 +38,7 @@
 			this.timerNameDisaster = new System.Windows.Forms.Timer(this.components);
 			this.richTextBoxNameDisaster = new System.Windows.Forms.RichTextBox();
 			this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+			this.timerNameDisaster2 = new System.Windows.Forms.Timer(this.components);
 			this.SuspendLayout();
 			// 
 			// timerChangeBackColor
@@ -108,6 +109,12 @@
 			this.richTextBox1.TabIndex = 7;
 			this.richTextBox1.Text = "";
 			// 
+			// timerNameDisaster2
+			// 
+			this.timerNameDisaster2.Enabled = true;
+			this.timerNameDisaster2.Interval = 2000;
+			this.timerNameDisaster2.Tick += new System.EventHandler(this.timerNameDisaster2_Tick);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -136,6 +143,7 @@
 		private System.Windows.Forms.Timer timerNameDisaster;
 		private System.Windows.Forms.RichTextBox richTextBoxNameDisaster;
 		private System.Windows.Forms.RichTextBox richTextBox1;
+		private System.Windows.Forms.Timer timerNameDisaster2;
 	}
 }
 

@@ -18,7 +18,8 @@ namespace timer_event
 			InitializeComponent();
 		}
 		//Fiels 
-		private int i = 0;
+		private int _i = 0, _j = 0;
+		public string Dis;
 
 		private readonly Random _rnd = new Random();
 		private void buttonStart_Click(object sender, EventArgs e)
@@ -47,22 +48,43 @@ namespace timer_event
 
 		private void buttonStartNameDisaster_Click(object sender, EventArgs e)
 		{
-			i = 0;
-			timerNameDisaster.Start();
+			_i = 0;
 			richTextBoxNameDisaster.Text = listNames.SelectedItem.ToString();
+			timerNameDisaster.Start();
+			richTextBoxNameDisaster.HideSelection = true;
+			timerNameDisaster2.Start();
 		}
 
 
 		private void timerNameDisaster_Tick(object sender, EventArgs e)
 		{
-			while(i < richTextBoxNameDisaster.TextLength)
+			richTextBoxNameDisaster.HideSelection = false;
+			if(_i > richTextBoxNameDisaster.TextLength - 1)
 			{
-				richTextBoxNameDisaster.SelectionStart = i;
-				richTextBoxNameDisaster.SelectionLength = 1;
-				i++;
+				_i = 0;
+				timerNameDisaster.Stop();
 			}
 
-			timerNameDisaster.Stop();
+			richTextBoxNameDisaster.SelectionStart = _i;
+			richTextBoxNameDisaster.SelectionLength = 1;
+			_i++;
+
+		}
+
+		private void timerNameDisaster2_Tick(object sender, EventArgs e)
+		{
+
+			_j = richTextBoxNameDisaster.TextLength;
+			if(_j == 1)
+			{
+				richTextBoxNameDisaster.Text = "";
+				timerNameDisaster2.Stop();
+				return;
+			}
+			Dis = richTextBoxNameDisaster.Text;
+			Dis = Dis.Remove(_j - 1, 1);
+			richTextBoxNameDisaster.Text = Dis;
+
 		}
 	}
 }
