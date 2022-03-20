@@ -24,6 +24,7 @@ namespace cw1_familia
 		private uint _cntOf2Same = 0,_cntOf3Same = 0;
 		private int _lastResult;
 		private int _score = 0;
+		private string _postFix;
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
@@ -62,8 +63,24 @@ namespace cw1_familia
 			pictureBox3.Image = (Bitmap)cw1_familia.Properties.Resources.ResourceManager.GetObject(_secondPic);
 			labelLastResultValue.Text = _lastResult.ToString();
 			labelScoreValue.Text = _score.ToString();
-			labelDropped2SameValue.Text = _cntOf2Same.ToString();
-			labelDropped3SameValue.Text = _cntOf3Same.ToString();
+			if (_cntOf2Same % 10 == 0 ||
+			    _cntOf2Same % 10 == 1 ||
+			    _cntOf2Same % 10 == 5 ||
+			    _cntOf2Same % 10 == 6 ||
+			    _cntOf2Same % 10 == 7 ||
+			    _cntOf2Same % 10 == 8 ||
+			    _cntOf2Same % 10 == 9) _postFix = "раз";
+			else _postFix = "раза";
+			labelDropped2SameValue.Text = _cntOf2Same.ToString() + " " + _postFix;
+			if( _cntOf3Same % 10 == 0 ||
+				_cntOf3Same % 10 == 1 ||
+				_cntOf3Same % 10 == 5 ||
+				_cntOf3Same % 10 == 6 ||
+				_cntOf3Same % 10 == 7 ||
+				_cntOf3Same % 10 == 8 ||
+				_cntOf3Same % 10 == 9) _postFix = "раз";
+			else _postFix = "раза";
+			labelDropped3SameValue.Text = _cntOf3Same.ToString() + " " + _postFix;
 		}
 
 		private void buttonMain_MouseDown(object sender, MouseEventArgs e)
