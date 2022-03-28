@@ -1,0 +1,11 @@
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\bin\Debug\element_class.exe.config
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\bin\Debug\element_class.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\bin\Debug\element_class.pdb
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csproj.AssemblyReference.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.Form1.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.Properties.Resources.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csproj.GenerateResource.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csproj.CoreCompileInputs.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.pdb
