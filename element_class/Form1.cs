@@ -16,45 +16,51 @@ namespace element_class
 		{
 			InitializeComponent();
 		}
+		private int a;
 
 		private Button buttonNew;
 		private void buttonEnter_Click(object sender, EventArgs e)
 		{
-			int x = 5, y = 5;
-			Random rnd = new Random();
-			panelMain.Controls.Clear();
-			for (int i = 0; i < Convert.ToInt32(textBoxCountOfButton.Text); i++)
-			{
-				buttonNew = new Button();
-				panelMain.Controls.Add(buttonNew);
-				buttonNew.Text = "k";
-				buttonNew.UseVisualStyleBackColor = true;
-				buttonNew.BackColor = my_color[rnd.Next(4)];
-				buttonNew.Size = new Size(50, 50);
-				buttonNew.Location = new Point(x, y);
-				buttonNew.Tag = ;
-				buttonNew.Click += ButtonNew_Click;
-				x += buttonNew.Size.Width;
-			}
+			timer.Start();
 		}
 
+
+		Random rnd = new Random();
+		private void timer_Tick(object sender, EventArgs e)
+		{
+
+
+				buttonNew = new Button();
+				a = rnd.Next(50);
+				panelMain.Controls.Add(buttonNew);
+				buttonNew.Text = a.ToString();
+				buttonNew.Size = new Size(50, 50);
+				buttonNew.Tag = a;
+				buttonNew.Location = new Point(rnd.Next(50,panelMain.Width - 50),rnd.Next(50,panelMain.Height - 50));
+				buttonNew.Click += ButtonNew_Click;
+	
+		}
+		Button btnn;
 		private void ButtonNew_Click(object sender, EventArgs e)
 		{
-			Button bb = (Button)sender;
-			MessageBox.Show(bb.Text + " " + bb.Tag);
-			//panelMain.Controls.Remove(bb);
+
+			Button btn = (Button)sender;
+			btnn = btn;
+			//panelMain.Controls.Remove(btn);
+			if ((int)btn.Tag %2 != 0)
+					timer1.Start();
 			
-			panelMain.Controls.RemoveAt(panelMain.Controls.IndexOf(bb));
+				
 		}
 
-		private Color[] my_color = new Color[4];
-
-		private void Form1_Load(object sender, EventArgs e)
+		private void Timer1_Tick(object sender, EventArgs e)
 		{
-			my_color[0] = Color.Aqua;
-			my_color[1] = Color.BlueViolet;
-			my_color[2] = Color.Brown;
-			my_color[3] = Color.Magenta;
+
+			btnn.Location = new Point(btnn.Location.X, btnn.Location.Y + 1);
+				if(btnn.Location.Y == panelMain.Height - 50)
+				{
+					timer1.Stop();
+				}
 		}
 	}
 }

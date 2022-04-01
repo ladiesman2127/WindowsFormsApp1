@@ -9,3 +9,12 @@ C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csproj.CoreCompileInputs.cache
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.exe
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\element_class\obj\Debug\element_class.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\obj\Debug\element_class.Form1.resources
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\obj\Debug\element_class.Properties.Resources.resources
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csproj.GenerateResource.cache
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\obj\Debug\element_class.exe
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\obj\Debug\element_class.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\bin\Debug\element_class.exe.config
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\bin\Debug\element_class.exe
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\bin\Debug\element_class.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\element_class\obj\Debug\element_class.csprojAssemblyReference.cache

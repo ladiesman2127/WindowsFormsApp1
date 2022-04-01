@@ -9,3 +9,12 @@ C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_even
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csproj.CoreCompileInputs.cache
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.exe
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\bin\Debug\timer_event.exe.config
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\bin\Debug\timer_event.exe
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\bin\Debug\timer_event.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csprojAssemblyReference.cache
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.Form1.resources
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.Properties.Resources.resources
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.csproj.GenerateResource.cache
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.exe
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\timer_event\obj\Debug\timer_event.pdb
