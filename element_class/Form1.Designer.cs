@@ -28,58 +28,68 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.buttonEnter = new System.Windows.Forms.Button();
-			this.panelMain = new System.Windows.Forms.Panel();
-			this.textBoxCountOfButton = new System.Windows.Forms.TextBox();
-			this.SuspendLayout();
-			// 
-			// buttonEnter
-			// 
-			this.buttonEnter.Location = new System.Drawing.Point(335, 13);
-			this.buttonEnter.Name = "buttonEnter";
-			this.buttonEnter.Size = new System.Drawing.Size(66, 25);
-			this.buttonEnter.TabIndex = 0;
-			this.buttonEnter.Text = "Enter";
-			this.buttonEnter.UseVisualStyleBackColor = true;
-			this.buttonEnter.Click += new System.EventHandler(this.buttonEnter_Click);
-			// 
-			// panelMain
-			// 
-			this.panelMain.BackColor = System.Drawing.Color.LemonChiffon;
-			this.panelMain.ForeColor = System.Drawing.SystemColors.ControlText;
-			this.panelMain.Location = new System.Drawing.Point(13, 44);
-			this.panelMain.Name = "panelMain";
-			this.panelMain.Size = new System.Drawing.Size(775, 100);
-			this.panelMain.TabIndex = 1;
-			// 
-			// textBoxCountOfButton
-			// 
-			this.textBoxCountOfButton.Location = new System.Drawing.Point(229, 16);
-			this.textBoxCountOfButton.Name = "textBoxCountOfButton";
-			this.textBoxCountOfButton.Size = new System.Drawing.Size(100, 20);
-			this.textBoxCountOfButton.TabIndex = 2;
-			// 
-			// Form1
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.textBoxCountOfButton);
-			this.Controls.Add(this.panelMain);
-			this.Controls.Add(this.buttonEnter);
-			this.Name = "Form1";
-			this.Text = "Form1";
-			this.Load += new System.EventHandler(this.Form1_Load);
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            this.buttonStart = new System.Windows.Forms.Button();
+            this.timer = new System.Windows.Forms.Timer(this.components);
+            this.panelMain = new System.Windows.Forms.Panel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.SuspendLayout();
+            // 
+            // buttonStart
+            // 
+            this.buttonStart.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonStart.Location = new System.Drawing.Point(318, 12);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(146, 41);
+            this.buttonStart.TabIndex = 0;
+            this.buttonStart.Text = "Start";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonEnter_Click);
+            // 
+            // timer
+            // 
+            this.timer.Interval = 1000;
+            this.timer.Tick += new System.EventHandler(this.timer_Tick);
+            // 
+            // panelMain
+            // 
+            this.panelMain.Location = new System.Drawing.Point(12, 59);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(776, 379);
+            this.panelMain.TabIndex = 1;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
+            // timer2
+            // 
+            this.timer2.Interval = 10;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // Form1
+            // 
+            this.AcceptButton = this.buttonStart;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.panelMain);
+            this.Controls.Add(this.buttonStart);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
 
 		}
 
 		#endregion
 
-		private System.Windows.Forms.Button buttonEnter;
-		private System.Windows.Forms.Panel panelMain;
-		private System.Windows.Forms.TextBox textBoxCountOfButton;
-	}
+		private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.Timer timer;
+        private System.Windows.Forms.Panel panelMain;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+    }
 }
 

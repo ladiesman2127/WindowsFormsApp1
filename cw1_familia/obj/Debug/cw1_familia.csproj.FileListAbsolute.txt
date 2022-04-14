@@ -9,3 +9,12 @@ C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_famili
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csproj.CoreCompileInputs.cache
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.exe
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\bin\Debug\cw1_familia.exe.config
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\bin\Debug\cw1_familia.exe
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\bin\Debug\cw1_familia.pdb
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csprojAssemblyReference.cache
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.Form1.resources
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.Properties.Resources.resources
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.csproj.GenerateResource.cache
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.exe
+C:\Users\TEMP.ST.008\Source\Repos\WindowsFormsApp1\cw1_familia\obj\Debug\cw1_familia.pdb
