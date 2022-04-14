@@ -1,0 +1,11 @@
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\bin\Debug\grades.exe.config
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\bin\Debug\grades.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\bin\Debug\grades.pdb
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.csproj.AssemblyReference.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.Form1.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.Properties.Resources.resources
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.csproj.GenerateResource.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.csproj.CoreCompileInputs.cache
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.exe
+C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.pdb

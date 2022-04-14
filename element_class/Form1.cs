@@ -17,7 +17,7 @@ namespace element_class
 			InitializeComponent();
 		}
 
-		private Button buttonNew;
+		private Button _buttonNew;
 		private void buttonEnter_Click(object sender, EventArgs e)
 		{
 			int x = 5, y = 5;
@@ -25,16 +25,16 @@ namespace element_class
 			panelMain.Controls.Clear();
 			for (int i = 0; i < Convert.ToInt32(textBoxCountOfButton.Text); i++)
 			{
-				buttonNew = new Button();
-				panelMain.Controls.Add(buttonNew);
-				buttonNew.Text = "k";
-				buttonNew.UseVisualStyleBackColor = true;
-				buttonNew.BackColor = my_color[rnd.Next(4)];
-				buttonNew.Size = new Size(50, 50);
-				buttonNew.Location = new Point(x, y);
-				buttonNew.Tag = ;
-				buttonNew.Click += ButtonNew_Click;
-				x += buttonNew.Size.Width;
+				_buttonNew = new Button();
+				panelMain.Controls.Add(_buttonNew);
+				_buttonNew.Text = "k";
+				_buttonNew.UseVisualStyleBackColor = true;
+				_buttonNew.BackColor = _myColor[rnd.Next(4)];
+				_buttonNew.Size = new Size(50, 50);
+				_buttonNew.Location = new Point(x, y);
+				_buttonNew.Tag = i;
+				_buttonNew.Click += ButtonNew_Click;
+				x += _buttonNew.Size.Width;
 			}
 		}
 
@@ -47,14 +47,14 @@ namespace element_class
 			panelMain.Controls.RemoveAt(panelMain.Controls.IndexOf(bb));
 		}
 
-		private Color[] my_color = new Color[4];
+		private readonly Color[] _myColor = new Color[4];
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			my_color[0] = Color.Aqua;
-			my_color[1] = Color.BlueViolet;
-			my_color[2] = Color.Brown;
-			my_color[3] = Color.Magenta;
+			_myColor[0] = Color.Aqua;
+			_myColor[1] = Color.BlueViolet;
+			_myColor[2] = Color.Brown;
+			_myColor[3] = Color.Magenta;
 		}
 	}
 }

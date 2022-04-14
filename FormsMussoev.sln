@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cw1_familia", "cw1_familia\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "element_class", "element_class\element_class.csproj", "{75C97C40-FAFE-4AC6-A9B3-2DA5AB36CB2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grades", "grades\grades.csproj", "{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{75C97C40-FAFE-4AC6-A9B3-2DA5AB36CB2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75C97C40-FAFE-4AC6-A9B3-2DA5AB36CB2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75C97C40-FAFE-4AC6-A9B3-2DA5AB36CB2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
