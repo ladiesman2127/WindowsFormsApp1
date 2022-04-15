@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.1.32228.430
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30703.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormMussoev103", "WindowsFormsApp1\FormMussoev103.csproj", "{43B4B655-8945-4866-913E-CCC041A428B4}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "element_class", "element_class\element_class.csproj", "{75C97C40-FAFE-4AC6-A9B3-2DA5AB36CB2E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grades", "grades\grades.csproj", "{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paint", "paint\paint.csproj", "{2CF449F7-0E4A-4236-A6D2-FA868A00F74E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF48E43B-041A-4F0D-9EB5-A48473C25C8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF449F7-0E4A-4236-A6D2-FA868A00F74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF449F7-0E4A-4236-A6D2-FA868A00F74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF449F7-0E4A-4236-A6D2-FA868A00F74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF449F7-0E4A-4236-A6D2-FA868A00F74E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

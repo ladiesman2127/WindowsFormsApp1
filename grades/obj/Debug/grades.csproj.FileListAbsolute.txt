@@ -9,3 +9,11 @@ C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.csproj.G
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.csproj.CoreCompileInputs.cache
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.exe
 C:\Users\Abstergo\source\repos\WindowsFormsApp1\grades\obj\Debug\grades.pdb
+Z:\WindowsFormsApp1\grades\bin\Debug\grades.exe.config
+Z:\WindowsFormsApp1\grades\bin\Debug\grades.exe
+Z:\WindowsFormsApp1\grades\bin\Debug\grades.pdb
+Z:\WindowsFormsApp1\grades\obj\Debug\grades.Form1.resources
+Z:\WindowsFormsApp1\grades\obj\Debug\grades.Properties.Resources.resources
+Z:\WindowsFormsApp1\grades\obj\Debug\grades.csproj.GenerateResource.cache
+Z:\WindowsFormsApp1\grades\obj\Debug\grades.exe
+Z:\WindowsFormsApp1\grades\obj\Debug\grades.pdb

@@ -55,7 +55,6 @@ namespace grades
 			labelStats.Text = "Кол-во баллов: " + sum.ToString() + "\r\n" +
 			                  "Кол-во оценок: " + countOfGrades.ToString() + "\r\n" +
 			                  "Средний балл: " + (sum / countOfGrades).ToString();
-
 		}
 
 		private void buttonClear_Click(object sender, EventArgs e)
@@ -64,13 +63,7 @@ namespace grades
 			{
 				txtBoxes[i].Text = "";
 			}
-			ind_1 = 0;
-			ind_2 = 0;
-			ind_3 = 0;
-			ind_4 = 0;
-			ind_5 = 0;
-			sum = 0;
-			countOfGrades = 0;
+			ind_1 = ind_2 = ind_3 = ind_4 = ind_5 = sum = countOfGrades = 0;
 			labelStats.Text = "";
 		}
 
