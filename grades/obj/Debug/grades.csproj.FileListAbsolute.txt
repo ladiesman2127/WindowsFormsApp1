@@ -17,3 +17,4 @@ Z:\WindowsFormsApp1\grades\obj\Debug\grades.Properties.Resources.resources
 Z:\WindowsFormsApp1\grades\obj\Debug\grades.csproj.GenerateResource.cache
 Z:\WindowsFormsApp1\grades\obj\Debug\grades.exe
 Z:\WindowsFormsApp1\grades\obj\Debug\grades.pdb
+Z:\WindowsFormsApp1\grades\obj\Debug\grades.csprojAssemblyReference.cache

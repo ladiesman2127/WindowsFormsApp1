@@ -36,6 +36,7 @@
             this.buttonCircleDraw = new System.Windows.Forms.Button();
             this.buttonEllipseDraw = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // panel1
@@ -81,6 +82,7 @@
             this.buttonLineDraw.TabIndex = 3;
             this.buttonLineDraw.Text = "Line";
             this.buttonLineDraw.UseVisualStyleBackColor = true;
+            this.buttonLineDraw.Click += new System.EventHandler(this.buttonLineDraw_Click);
             // 
             // buttonCircleDraw
             // 
@@ -90,6 +92,7 @@
             this.buttonCircleDraw.TabIndex = 4;
             this.buttonCircleDraw.Text = "Circle";
             this.buttonCircleDraw.UseVisualStyleBackColor = true;
+            this.buttonCircleDraw.Click += new System.EventHandler(this.buttonCircleDraw_Click);
             // 
             // buttonEllipseDraw
             // 
@@ -99,6 +102,7 @@
             this.buttonEllipseDraw.TabIndex = 5;
             this.buttonEllipseDraw.Text = "Ellipse";
             this.buttonEllipseDraw.UseVisualStyleBackColor = true;
+            this.buttonEllipseDraw.Click += new System.EventHandler(this.buttonEllipseDraw_Click);
             // 
             // buttonClear
             // 
@@ -110,11 +114,22 @@
             this.buttonClear.UseVisualStyleBackColor = true;
             this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
+            // buttonSave
+            // 
+            this.buttonSave.Location = new System.Drawing.Point(7, 10);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(102, 21);
+            this.buttonSave.TabIndex = 7;
+            this.buttonSave.Text = "Save";
+            this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1399, 768);
+            this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonEllipseDraw);
             this.Controls.Add(this.buttonCircleDraw);
@@ -139,6 +154,7 @@
         private System.Windows.Forms.Button buttonCircleDraw;
         private System.Windows.Forms.Button buttonEllipseDraw;
         private System.Windows.Forms.Button buttonClear;
+        private System.Windows.Forms.Button buttonSave;
     }
 }
 

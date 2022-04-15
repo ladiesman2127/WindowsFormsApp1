@@ -57,11 +57,50 @@ namespace paint
             panel1.Refresh();
         }
 
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+            Size BorderSize = new Size(this.Width - this.panel1.Width, this.Height - this.panel1.Height);
+            Bitmap screenshot = new Bitmap(this.panel1.Width, this.panel1.Height);
+            Graphics gr = Graphics.FromImage(screenshot);
+            gr.CopyFromScreen(panel1.Location.X,panel1.Location.Y,this.Location.X,this.Location.Y,panel1.Size);
+            screenshot.Save("Z:\\fILE.png");
+        }
+        bool bLine = false, bCircle = false, bEllipse = false;
+
+        private void buttonLineDraw_Click(object sender, EventArgs e)
+        {
+            bLine = true;
+        }
+
+        private void buttonRectangleDraw_Click(object sender, EventArgs e)
+        {
+            bCircle = true;
+        }
+
+        private void buttonEllipseDraw_Click(object sender, EventArgs e)
+        {
+            bEllipse = true;
+        }
+
         private void panel1_MouseMove(object sender, MouseEventArgs e)
         {
             if (isDown)
             {
-                _gr.DrawLine(_p1, x, y, e.X, e.Y);
+                if (bLine)
+                {
+                    _gr.DrawLine(_p1, x, y, e.X, e.Y);
+                }
+                else if (bCircle)
+                {
+                    _gr.DrawEllipse(_p1, x, y, e.X, e.Y);
+                }
+                else
+                {
+                    _gr.DrawRectangle(_p1, x, y, e.X, e.Y);
+                    
+                }
+                    
+               
                 x = e.X;
                 y = e.Y;
                 
